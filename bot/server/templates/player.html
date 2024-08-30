@@ -346,37 +346,37 @@
 
         function vlc_player() {
             const openLazyLink = lazyLink;
-            const openVlc = `vlc://${openLazyLink}`;
+            const openVlc = `vlc://${stream-media}`;
             window.location.href = openVlc;
         }
 	    
 	function mx_player() {
             const openLazyLink = lazyLink;
-            const openMx = `intent:${openLazyLink}#Intent;package=com.mxtech.videoplayer.ad;end`;
+            const openMx = `intent:${stream-media}#Intent;package=com.mxtech.videoplayer.ad;end`;
             window.location.href = openMx;
         }
         
 	function playit_player() {
     	const openLazyLink = lazyLink;
-    	const openPlayit = `playit://playerv2/video?url=${openLazyLink}`;
+    	const openPlayit = `playit://playerv2/video?url=${stream-media}`;
    	 window.location.href = openPlayit;
 	}
 	    
 	function s_player() {
             const openLazyLink = lazyLink;
-            const openSplayer = `intent:${openLazyLink}#Intent;action=com.young.simple.player.playback_online;package=com.young.simple.player;end`;
+            const openSplayer = `intent:${stream-media}#Intent;action=com.young.simple.player.playback_online;package=com.young.simple.player;end`;
             window.location.href = openSplayer;
         }
 	    
 	function km_player() {
            const openLazyLink = lazyLink;
-           const openKmplayer = `intent:${openLazyLink}#Intent;package=com.kmplayer;end`;
+           const openKmplayer = `intent:${stream-media}#Intent;package=com.kmplayer;end`;
            window.location.href = openKmplayer;
         }
         
 	function hd_player() {
            const openLazyLink = lazyLink;
-           const openHDplayer = `intent:${openLazyLink}#Intent;package=uplayer.video.player;end`;
+           const openHDplayer = `intent:${stream-media}#Intent;package=uplayer.video.player;end`;
            window.location.href = openHDplayer;
         }
 	    
