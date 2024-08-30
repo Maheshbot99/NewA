@@ -113,16 +113,7 @@
         <div id="file-name">
             %s
         </div>
-	</marquee>
-
-		<!-- Online Video Player -> to be displayed here  -->
-    <div class="justify-content-center align-items-center w-100 d-flex  flex-wrap">
-            <div class="lg:w-9/12 lg:px-12 lg:py-4 w-full  border border-success wow animate__animated animate__fadeInLeft">
-                <video id="player" class="player " playsinline controls>
-                    <source src="%s" type="video/mp4">
-                </video>
-            </div>
-   </div>	
+	</marquee>		
 	
 <body>
     <video id="stream-media" controls preload="auto">
@@ -223,7 +214,7 @@
                                 </svg>
                                 HD Player(4K)
                             </div>
-                            <div onclick="mediaLink()" class="col-lg-4 p-2 col-12 rounded-3xl bg-warning text-black fw-bold text-center align-items-center hover:bg-gradient-to-r from-yellow-500 to-violet-500 hover:shadow-md hover:shadow-gray-100 hover:translate-y-[-5px] transition transition-all duration-300 wow animate__animated animate__rubberBand">
+                            <div onclick="{{ mediaLink }}()" class="col-lg-4 p-2 col-12 rounded-3xl bg-warning text-black fw-bold text-center align-items-center hover:bg-gradient-to-r from-yellow-500 to-violet-500 hover:shadow-md hover:shadow-gray-100 hover:translate-y-[-5px] transition transition-all duration-300 wow animate__animated animate__rubberBand">
                                 Download Now
                             </div>
                         </div>
